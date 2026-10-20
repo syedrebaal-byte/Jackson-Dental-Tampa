@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jackson Dental | Downtown Tampa Dentist | Dr. Geoffrey Jackson</title>
+    <meta name="description" content="Jackson Dental is Downtown Tampa's premier dental practice located in Bank of America Plaza. Specializing in porcelain veneers, dental implants, Invisalign, and gentle preventative dentistry." />
+    
+    <!-- OpenGraph Social Tags -->
+    <meta property="og:title" content="Jackson Dental | Downtown Tampa Premier Dentistry" />
+    <meta property="og:description" content="Experience elevated dental care with Dr. Geoffrey Jackson and team at Bank of America Plaza in Downtown Tampa. Over 1,380+ 4.9-star reviews." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jacksondentaltampa.com" />
+    <meta property="og:image" content="/assets/images/hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jackson Dental | Downtown Tampa Dentistry" />
+    <meta name="twitter:description" content="Elevated cosmetic, implant, and general dentistry in Downtown Tampa." />
+    <meta name="twitter:image" content="/assets/images/hero.jpg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Schema.org Dentist LocalBusiness Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Jackson Dental",
+      "image": "https://jacksondentaltampa.com/assets/images/hero.jpg",
+      "@id": "https://jacksondentaltampa.com",
+      "url": "https://jacksondentaltampa.com",
+      "telephone": "(813) 701-3141",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "101 E Kennedy Blvd, Suite 300",
+        "addressLocality": "Tampa",
+        "addressRegion": "FL",
+        "postalCode": "33602",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 27.9475,
+        "longitude": -82.4584
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday"],
+          "opens": "08:30",
+          "closes": "16:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Thursday"],
+          "opens": "08:30",
+          "closes": "16:00"
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Dr. Geoffrey Jackson, DMD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1382"
+      }
+    }
+    </script>
+  </head>
+  <body class="bg-stone-50 text-stone-900 font-sans antialiased selection:bg-amber-100 selection:text-amber-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

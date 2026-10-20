@@ -1,0 +1,6 @@
+{
+  "name": "Jackson Dental Tampa",
+  "description": "Award-winning comprehensive and cosmetic dentistry in Downtown Tampa by Dr. Geoffrey Jackson. Offering porcelain veneers, dental implants, Invisalign, and gentle preventative care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
